@@ -1,0 +1,21 @@
+# Ignora TODAS as pastas node_modules em qualquer nível
+**/node_modules/
+node_modules/
+
+# Ignora arquivos de ambiente
+.env
+.env.local
+.env.*.local
+
+# Ignora builds
+dist/
+build/
+*.tsbuildinfo
+
+# Ignora logs
+*.log
+npm-debug.log*
+
+# Ignora arquivos do sistema
+.DS_Store
+Thumbs.db
